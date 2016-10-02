@@ -1,2 +1,2 @@
 language: java
-script: ant -file TicketMachine\build.xml 
+script: ant
