@@ -1,2 +1,4 @@
 language: java
 script: ant -file build.xml
+notifications:
+  email: false
