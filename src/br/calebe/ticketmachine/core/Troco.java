@@ -13,7 +13,7 @@ public class Troco {
     public Troco(int valor) {
         papeisMoeda = new PapelMoeda[6];
         int count = 0;
-        while (valor % 100 != 0) {
+        while (valor % 100 != 0 && count<5) {
             count++;
             //correção da issue 5:
             valor = valor - 100;
