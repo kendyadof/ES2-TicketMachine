@@ -19,6 +19,9 @@ public class TicketMachine {
         this.saldo = 0;
     }
 
+    public TicketMachine() {
+    }
+
     public void inserir(int quantia) throws PapelMoedaInvalidaException {
         boolean achou = false;
         for (int i = 0; i < papelMoeda.length && !achou; i++) {

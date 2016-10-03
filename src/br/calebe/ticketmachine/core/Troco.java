@@ -6,7 +6,7 @@ import java.util.Iterator;
  *
  * @author Correção: João Pedro Rocha e Leonardo de Maria
  */
-class Troco {
+public class Troco {
 
     protected PapelMoeda[] papeisMoeda;
 
